@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Jeremias Knoblauch</title>
+    <link>https://jeremiasknoblauch.github.io/home/</link>
+    <description>Recent content in Homes on Jeremias Knoblauch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jeremiasknoblauch.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://jeremiasknoblauch.github.io/home/about/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/home/about/</guid>
+      <description>About me I am a postgraduate researcher working at the boundary of computer science and statistics within the Oxford-Warwick Statistics Programme (OxWaSP). I am jointly supervised by Theodoros Damoulas and Chenlei Leng. My research is part of the Clean Air London project at the Turing Institute to support London&amp;rsquo;s Major&amp;rsquo;s office with data-driven policy.</description>
+    </item>
+    
+  </channel>
+</rss>
