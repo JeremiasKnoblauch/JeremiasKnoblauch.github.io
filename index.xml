@@ -50,8 +50,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/publication/stbocpdms/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -72,6 +71,15 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
       <guid>https://jeremiasknoblauch.github.io/talk/edinburgh_icms/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
+      <link>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</guid>
+      <description></description>
     </item>
     
     <item>
