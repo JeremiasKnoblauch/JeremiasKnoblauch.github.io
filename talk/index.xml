@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://jeremiasknoblauch.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Bayesian Analysis for Non-Stationary Streaming Data</title>
       <link>https://jeremiasknoblauch.github.io/talk/edinburgh_cdt/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/edinburgh_cdt/</guid>
       <description>Embed your slides or video here using shortcodes. Further details can easily be added using Markdown and $\rm \LaTeX$ math code.</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Bayesian On-line Changepoint Detection and Model Selection in high-dimensional data</title>
       <link>https://jeremiasknoblauch.github.io/talk/edinburgh_icms/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/edinburgh_icms/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/fbtechtalk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/fbtechtalk/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/nips2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/nips2018/</guid>
       <description></description>
@@ -51,7 +51,7 @@
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</guid>
       <description></description>
@@ -60,7 +60,7 @@
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/columbia/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/columbia/</guid>
       <description></description>
@@ -69,7 +69,7 @@
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/cornell/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/cornell/</guid>
       <description></description>
@@ -78,16 +78,34 @@
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/nyu/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/nyu/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Generalized Variational Inference</title>
+      <link>https://jeremiasknoblauch.github.io/talk/oxford/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/talk/oxford/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Variational Inference one-day Workshop</title>
+      <link>https://jeremiasknoblauch.github.io/talk/ati_workshop/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/talk/ati_workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Spatio-temporal Bayesian On-line Changepoint Detection with Model Selection</title>
       <link>https://jeremiasknoblauch.github.io/talk/glasgow_seminar/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/glasgow_seminar/</guid>
       <description></description>
@@ -96,7 +114,7 @@
     <item>
       <title>Spatio-temporal Bayesian On-line Changepoint Detection with Model Selection</title>
       <link>https://jeremiasknoblauch.github.io/talk/icml2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/icml2018/</guid>
       <description></description>

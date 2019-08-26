@@ -1,0 +1,13 @@
++++
+title = "New horizons for Bayesian inference"
+
+date = 2019-04-08
+lastmod = 2019-04-08
+draft = false
+
+#tags = [""]
+summary = "This project aims at extending the reach and flexibility of Bayesian inference. While particular attention is paid to the needs of structured and spatio-temporal data, the results are more generically applicable."
+
++++
+
+Inspired by the intersection between Bayesian inference and infinite-dimensional optimization problems exposed by Zellner (1988) and Bissiri, Holmes & Walker (2016), this project aims at extending the flexibility and customizeability of Bayesian inference. The first stepping stone on this path is [Generalized Variational Inference (GVI)](https://arxiv.org/abs/1904.02063 "Link to GVI paper"). GVI is based on a generalized representation of Bayesian inference that I believe can inspire further methodological advances. As we have shown, this approach is remarkably powerful: See [here](https://arxiv.org/abs/1904.02303 "Link to Robust DGP paper") for an application to Deep Gaussian Processes and [here](https://arxiv.org/abs/1806.02261 "Link to Robust BOCPD paper") for an application to Bayesian On-line Changepoint Detection. Code for each of the projects is linked within the papers.

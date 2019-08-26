@@ -7,18 +7,8 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>New horizons for Bayesian inference</title>
-      <link>https://jeremiasknoblauch.github.io/research_projects/new-horizons-for-bayesian-inference/</link>
-      <pubDate>Mon, 08 Apr 2019 00:00:00 -0400</pubDate>
-      
-      <guid>https://jeremiasknoblauch.github.io/research_projects/new-horizons-for-bayesian-inference/</guid>
-      <description>&lt;p&gt;Inspired by Zellner (1988) and Bissiri, Holmes &amp;amp; Walker (2016), this project aims at extending the flexibility and customizeability of Bayesian inference. The first stepping stone on this path is Generalized Variational Inference (GVI) which I coauthored together with Jack Jewson &amp;amp; Theodoros Damoulas. GVI is based on a generalized representation of Bayesian inference that I believe can inspire further methodological advances. Key for this project is going to be a solid information-geometric understanding of Bayesian inference and notions of discrepancy in the space of distributions. As we have shown, this approach is remarkably powerful (see e.g., Knoblauch et al. (2018) for an application to Bayesian On-line Changepoint Detection or Knoblauch (2019) for an application to Deep Gaussian Processes).&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Generalized Variational Inference</title>
@@ -39,9 +29,28 @@
     </item>
     
     <item>
+      <title>New horizons for Bayesian inference</title>
+      <link>https://jeremiasknoblauch.github.io/research_projects/new-horizons-for-bayesian-inference/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/research_projects/new-horizons-for-bayesian-inference/</guid>
+      <description>&lt;p&gt;Inspired by the intersection between Bayesian inference and infinite-dimensional optimization problems exposed by Zellner (1988) and Bissiri, Holmes &amp;amp; Walker (2016), this project aims at extending the flexibility and customizeability of Bayesian inference. The first stepping stone on this path is &lt;a href=&#34;https://arxiv.org/abs/1904.02063&#34; title=&#34;Link to GVI paper&#34; target=&#34;_blank&#34;&gt;Generalized Variational Inference (GVI)&lt;/a&gt;. GVI is based on a generalized representation of Bayesian inference that I believe can inspire further methodological advances. As we have shown, this approach is remarkably powerful: See &lt;a href=&#34;https://arxiv.org/abs/1904.02303&#34; title=&#34;Link to Robust DGP paper&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; for an application to Deep Gaussian Processes and &lt;a href=&#34;https://arxiv.org/abs/1806.02261&#34; title=&#34;Link to Robust BOCPD paper&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt; for an application to Bayesian On-line Changepoint Detection. Code for each of the projects is linked within the papers.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
+      <link>https://jeremiasknoblauch.github.io/publication/robustbocpd/</link>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/publication/robustbocpd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Bayesian On-line Changepoint Detection 2.0</title>
       <link>https://jeremiasknoblauch.github.io/research_projects/advancing-bayesian-on-line-changepoint-detection/</link>
-      <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
+      <pubDate>Mon, 07 May 2018 00:00:00 +0100</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/research_projects/advancing-bayesian-on-line-changepoint-detection/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Bayesian On-line Changepoint Detection (BOCPD)&lt;/strong&gt; is a discrete-time inference framework introduced in the statistics and machine learning community independently by &lt;a href=&#34;http://eprints.lancs.ac.uk/745/1/online_chpt4.pdf&#34; target=&#34;_blank&#34;&gt;Fearnhead &amp;amp; Liu (2007)&lt;/a&gt; and &lt;a href=&#34;https://arxiv.org/abs/0710.3742&#34; target=&#34;_blank&#34;&gt;Adams &amp;amp; MacKay (2007)&lt;/a&gt;. Taken together, both papers have generated in excess of 500 citations and inspired more research in this area. The method is popular because it is efficient and runs in constant time per observation processed. Me and my collaborators are working on extending the inference paradigm in several ways:&lt;/p&gt;
@@ -64,25 +73,6 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     </item>
     
     <item>
-      <title>Post Selection Inference in Weakly Stationary Time Series</title>
-      <link>https://jeremiasknoblauch.github.io/research_projects/robust-post-model-selection-inference/</link>
-      <pubDate>Mon, 07 May 2018 00:00:00 -0400</pubDate>
-      
-      <guid>https://jeremiasknoblauch.github.io/research_projects/robust-post-model-selection-inference/</guid>
-      <description>&lt;p&gt;This work is not yet published, but Stephan and I are hoping to resume our work on it soon. If you have a strong interest in this subject, do get in touch with me and I will happily share my thesis work with you.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
-      <link>https://jeremiasknoblauch.github.io/publication/robustbocpd/</link>
-      <pubDate>Mon, 07 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://jeremiasknoblauch.github.io/publication/robustbocpd/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Spatio-Temporal Bayesian On-line Changepoint Detection with Model Selection</title>
       <link>https://jeremiasknoblauch.github.io/publication/stbocpdms/</link>
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
@@ -94,7 +84,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Bayesian Analysis for Non-Stationary Streaming Data</title>
       <link>https://jeremiasknoblauch.github.io/talk/edinburgh_cdt/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/edinburgh_cdt/</guid>
       <description>&lt;p&gt;Embed your slides or video here using &lt;a href=&#34;https://sourcethemes.com/academic/post/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;. Further details can easily be added using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
@@ -104,7 +94,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Bayesian On-line Changepoint Detection and Model Selection in high-dimensional data</title>
       <link>https://jeremiasknoblauch.github.io/talk/edinburgh_icms/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/edinburgh_icms/</guid>
       <description></description>
@@ -113,7 +103,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/fbtechtalk/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/fbtechtalk/</guid>
       <description></description>
@@ -122,7 +112,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/nips2018/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/nips2018/</guid>
       <description></description>
@@ -131,7 +121,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Doubly Robust Bayesian Inference for Non-Stationary Streaming Data with β-Divergences</title>
       <link>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/oxwaspsymposium/</guid>
       <description></description>
@@ -140,7 +130,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/columbia/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/columbia/</guid>
       <description></description>
@@ -149,7 +139,7 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/cornell/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/cornell/</guid>
       <description></description>
@@ -158,9 +148,18 @@ Jeremias Knoblauch, Jack Jewson, Theodoros Damoulas. &lt;a href=&#34;https://jer
     <item>
       <title>Generalized Variational Inference</title>
       <link>https://jeremiasknoblauch.github.io/talk/nyu/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 -0500</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://jeremiasknoblauch.github.io/talk/nyu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Variational Inference</title>
+      <link>https://jeremiasknoblauch.github.io/talk/oxford/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://jeremiasknoblauch.github.io/talk/oxford/</guid>
       <description></description>
     </item>
     
