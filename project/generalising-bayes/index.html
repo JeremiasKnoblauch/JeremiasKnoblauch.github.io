@@ -1,0 +1,1556 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Jeremias Knoblauch" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Bayesian methods require assumptions that are often misaligned with the realities of modern day inference. It is my conviction that we can overcome these challenges with an optimisation-centric generalisation of Bayes&#39; rule." />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://academic-demo.netlify.app/project/generalising-bayes/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#bbdefb" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'" disabled>
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'">
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.42b572faf3fc4d24b1f69d408905c069.css" />
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+    <link rel="manifest" href="/manifest.webmanifest" />
+  
+
+  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://academic-demo.netlify.app/project/generalising-bayes/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary_large_image" />
+  
+  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://academic-demo.netlify.app/project/generalising-bayes/" />
+  <meta property="og:title" content="Optimisation-centric generalisations of Bayesian inference | " />
+  <meta property="og:description" content="Bayesian methods require assumptions that are often misaligned with the realities of modern day inference. It is my conviction that we can overcome these challenges with an optimisation-centric generalisation of Bayes&#39; rule." /><meta property="og:image" content="https://academic-demo.netlify.app/project/generalising-bayes/featured.png" />
+    <meta property="twitter:image" content="https://academic-demo.netlify.app/project/generalising-bayes/featured.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta
+        property="article:published_time"
+        content="2022-01-31T00:00:00&#43;00:00"
+      />
+    
+    <meta property="article:modified_time" content="2022-01-31T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://academic-demo.netlify.app/project/generalising-bayes/"
+  },
+  "headline": "Optimisation-centric generalisations of Bayesian inference",
+  
+  "image": [
+    "https://academic-demo.netlify.app/project/generalising-bayes/featured.png"
+  ],
+  
+  "datePublished": "2022-01-31T00:00:00Z",
+  "dateModified": "2022-01-31T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Jeremias Knoblauch"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png"
+    }
+  },
+  "description": "Bayesian methods require assumptions that are often misaligned with the realities of modern day inference. It is my conviction that we can overcome these challenges with an optimisation-centric generalisation of Bayes' rule."
+}
+</script>
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>Optimisation-centric generalisations of Bayesian inference | </title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  dark " data-wc-page-id="2ec38a37e905f57b8abd546d8ce7c59a" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.d333d96014f7bcfa311294a92ace0d60.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/"></a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/"></a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>About</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Research Mission</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Supervision</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Selected Recorded Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#publications"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/LauchLab" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article article-project">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<div class="article-container pt-3">
+  <h1>Optimisation-centric generalisations of Bayesian inference</h1>
+
+  
+
+  
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 31, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+  
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header" href="https://twitter.com/LauchLab" target="_blank" rel="noopener">
+    <i class="fab fa-twitter mr-1"></i>Follow</a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 449px;">
+  <div style="position: relative">
+    <img src="/project/generalising-bayes/featured_hufa41cac842cff45ec9b233663bed96c3_96404_720x2500_fit_q75_h2_lanczos_3.webp" width="720" height="449" alt="" class="featured-image">
+    <span class="article-header-caption">Idea behind optimisation-centric generalisations of Bayes</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h2 id="scope">Scope</h2>
+<p>I am committed to advancing the foundations and methodology of optimisation-centric generalised Bayesian posteriors.
+My 3-year EPSRC fellowship will help me realise this vision by laying the necessary foundations.
+Over the course of this time, I will also establish my own research group on generalised Bayesian methods.</p>
+<h2 id="background">Background</h2>
+<p>Arguably a fringe topic until even the early 1990s, Bayesian methods have become one of the most predominant statistical analysis frameworks in most of the sciences over the past two decades.
+Bayesian inference is attractive because data plays the role of updating one’s prior about the state of the world into a posterior belief.
+This has two advantages over other methods of statistical analysis: it allows for the incorporation of prior knowledge, and it provides a clear recipe for reconciling our prior beliefs with the true state of the world.
+While the standard Bayesian paradigm is conceptually elegant, operationalising it for statistical application requires at least three assumptions that are often unrealistic:</p>
+<ol>
+<li>
+<p>We need to pre-suppose that the true state of the world can be adequately described by an analytically
+available likelihood function indexed by some parameter—so that the degree of our prior
+knowledge about the real world is completely described by our prior knowledge about this parameter;</p>
+</li>
+<li>
+<p>We have to assume that the statistical modeller is actually capable of explicitly formulating the full
+extent of her prior knowledge about this parameter in form of a probability distribution;</p>
+</li>
+<li>
+<p>We need to surmise that the statistical modeller has enough computational budget so that the resulting
+Bayesian posterior belief can always be computed.</p>
+</li>
+</ol>
+<p>While these assumptions will never perfectly describe the reality of statistical analysis, they are a useful simplification within the classical
+paradigm of statistical analysis.
+In the classical paradigm, a domain expert with intimate knowledge of the natural phenomena that generated a data set D distills her expertise into a statistical model indexed by some parameter as well as a prior belief over reasonable values of said parameter.
+While this paradigm continues to adequately describe many scientific inquiries, the increasing availability of large scale data sets, computational power, and sophisticated black box models has given rise to a second way of performing statistical inference—the machine learning paradigm of statistical analysis.
+Where the classical paradigm was data-centric, the machine learning paradigm is model-centric: rather than seeking a parsimonious model that is hand-crafted to describe a single given data set D, models are instead intractable, overparameterised and often explicitly designed to adequately represent an
+inordinately large collection of possible data sets.
+In practice, this means that priors and models constructed in the machine learning paradigm are often determined before having knowledge about the nature of a data set to be analysed. Unfortunately, this violates assumptions 1 and 2 and leads to problems with misspecification.
+Beyond that, due to their aim of being near-universal black box modelling tools, statistical models specified in this way often are complex or intractable.</p>
+<p>As a result, traditional Bayesian computation is infeasible, which leads to a violation of assumption 3.
+As a consequence, using standard Bayesian posteriors for inference within the machine learning paradigm is problematic for a number of practical reasons.
+These include a lack of robustness, ill-informed priors, and intractability.
+To address these problems, a number of generalised Bayes-like procedures have been proposed in the past: PAC-Bayes, Safe Bayes, and generalised belief updates.
+The optimisation-centric generalisation that I have introduced in my previous work recovers these pre-existing extensions, and axiomatically justifies a much larger class of generalised posterior distributions capable of addressing a variety of problems.</p>
+<h2 id="use-cases">Use Cases</h2>
+<p>There is ample cause for further research on optimisation-centric generalised Bayesian methods: they reconcile the practices of modern large-scale inference with the assumptions underpinning Bayesian statistics.
+This has at least two significant practical advantages.</p>
+<ul>
+<li>
+<p><strong>Enhancing Robustness</strong>: because it relies on assumptions 1 and 2, the standard Bayesian
+paradigm is not robust to poorly specified models or prior beliefs. Consequently, it results in misleading
+uncertainty quantification in various conditions that are frequently encountered in practice.
+This includes outliers, heterogeneous or contaminated data, and dependence of observations. Fortunately,
+generalised Bayesian posteriors overcome these issues and result in better uncertainty
+quantification.</p>
+</li>
+<li>
+<p><strong>Simplifying Computation</strong>: by virtue of its optimisation-centric nature, the generalisation studied as
+part of this fellowship can directly simplify computation relative to standard Bayesian posteriors. This
+has important ramifications for computationally intensive contexts such as intractable likelihoods,
+simulator-based inference, or variational methods in highly-parameterized models.</p>
+</li>
+</ul>
+<p>Some statistical applications that have already benefited from these developments are the following:</p>
+<ul>
+<li>
+<p><strong>Time-ordered problems</strong>: due to their increased robustness, generalised posteriors have found
+great success in changepoint detection problems, sequential Monte Carlo methods, and
+more recently for regret guarantees in on-line learning.</p>
+</li>
+<li>
+<p><strong>Bayesian Machine Learning</strong>: black box models such as neural networks or Deep Gaussian Processes
+invariably suffer under model misspecification and poorly specified priors. Optimisationcentric
+generalised Bayesian posteriors can address both issues at once, and dramatically improve
+the reliability and robustness of uncertainty quantification in such models.</p>
+</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/generalised-bayesian-inference/">Generalised Bayesian Inference</a>
+  
+  <a class="badge badge-light" href="/tag/robustness/">Robustness</a>
+  
+  <a class="badge badge-light" href="/tag/bayesian-machine-learning/">Bayesian Machine Learning</a>
+  
+  <a class="badge badge-light" href="/tag/variational-inference/">Variational Inference</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://academic-demo.netlify.app/project/generalising-bayes/&amp;text=Optimisation-centric%20generalisations%20of%20Bayesian%20inference" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://academic-demo.netlify.app/project/generalising-bayes/&amp;t=Optimisation-centric%20generalisations%20of%20Bayesian%20inference" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Optimisation-centric%20generalisations%20of%20Bayesian%20inference&amp;body=https://academic-demo.netlify.app/project/generalising-bayes/" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://academic-demo.netlify.app/project/generalising-bayes/&amp;title=Optimisation-centric%20generalisations%20of%20Bayesian%20inference" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Optimisation-centric%20generalisations%20of%20Bayesian%20inference%20https://academic-demo.netlify.app/project/generalising-bayes/" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://academic-demo.netlify.app/project/generalising-bayes/&amp;title=Optimisation-centric%20generalisations%20of%20Bayesian%20inference" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://academic-demo.netlify.app/"><img class="avatar mr-3 avatar-circle" src="/author/jeremias-knoblauch/avatar_hu324837fa6b333247b69f74e9de2d8cc3_229664_270x270_fill_q75_lanczos_center.jpg" alt="Jeremias Knoblauch"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://academic-demo.netlify.app/">Jeremias Knoblauch</a></h5>
+      <h6 class="card-subtitle">Incoming Assistant Professor and EPSRC Fellow in Statistics &amp; Machine Learning</h6>
+      <p class="card-text">My research interests include robust Bayesian methods, generalised Bayesian methodology, variational methods, and simulators.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:j.knoblauch@ucl.ac.uk" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/LauchLab" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.co.uk/citations?user=4TPsxlsAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/JeremiasKnoblauch" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="project-related-pages content-widget-hr">
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+
+      
+      
+      
+        <h2>Events</h2>
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/optimisation-centric-generalisations-of-bayesian-inference/" >Optimisation-centric generalisations of Bayesian inference</a>
+    </div>
+
+    
+    <a href="/talk/optimisation-centric-generalisations-of-bayesian-inference/"  class="summary-link">
+      <div class="article-style">
+        An overview of the research I have done on generalised Bayesian methods 2019-2021
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Mar 19, 2021 2:00 PM
+        </span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/optimisation-centric-generalisations-of-bayesian-inference/" >
+      <img src="/talk/optimisation-centric-generalisations-of-bayesian-inference/featured_hufa41cac842cff45ec9b233663bed96c3_96404_150x0_resize_q75_h2_lanczos_3.webp" height="94" width="150"
+           alt="Optimisation-centric generalisations of Bayesian inference" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/" >Optimal Continual Learning has Perfect Memory and is NP-hard</a>
+    </div>
+
+    
+    <a href="/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/"  class="summary-link">
+      <div class="article-style">
+        An overview of my ICML paper in 2020 which formally proves that Continual Learning without forgetting is computationally infeasible.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Nov 9, 2020 2:00 PM
+        </span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/" >
+      <img src="/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/featured_hu12307f003e2b79226b5dfbfa8b40472f_117982_150x0_resize_q75_h2_lanczos_3.webp" height="104" width="150"
+           alt="Optimal Continual Learning has Perfect Memory and is NP-hard" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+          
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/talk/generalised-variational-inference/" >Generalised Variational Inference</a>
+    </div>
+
+    
+    <a href="/talk/generalised-variational-inference/"  class="summary-link">
+      <div class="article-style">
+        An overview of Generalised Variational Inference, a family of methods to address robustness in Bayesian machine learning problems
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+      <div>
+        <span>
+          Sep 29, 2020 2:00 PM
+        </span>
+        
+      </div>
+      
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/talk/generalised-variational-inference/" >
+      <img src="/talk/generalised-variational-inference/featured_hu76a332a3ee57a45f39e90040b563c8f6_40498_150x0_resize_q75_h2_lanczos_3.webp" height="30" width="150"
+           alt="Generalised Variational Inference" loading="lazy">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+    </div>
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+      
+
+    
+    <script src="/js/vendor-bundle.min.b73dfaac3b6499dc997741748a7c3fe2.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/python.min.js" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/latex.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+      
+      <script id="search-hit-fuse-template" type="text/x-template">
+        <div class="search-hit" id="summary-{{key}}">
+          <div class="search-hit-content">
+            <div class="search-hit-name">
+              <a href="{{relpermalink}}">{{title}}</a>
+              <div class="article-metadata search-hit-type">{{type}}</div>
+              <p class="search-hit-description">{{snippet}}</p>
+            </div>
+          </div>
+        </div>
+      </script>
+      
+        <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+      
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+      
+      
+      
+      
+      
+      
+      
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+    
+    
+      <script src="/js/wowchemy-headroom.79343bd00de25e04f03b6af2819f8643.js" type="module"></script>
+    
+    
+    
+    
+    
+    
+    
+      
+      
+    
+    
+    <script src="/en/js/wowchemy.min.f41ee09ba84b78e6bdd68fadc655c33f.js"></script>
+
+    
+    
+    
+    
+    
+    
+      
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <script src="/js/wowchemy-publication.ee00aa4e09ee62617fe2dc15bfcb3f7b.js" type="module"></script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+
+
+
+</body>
+</html>

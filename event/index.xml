@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selected Recorded Talks | </title>
+    <link>https://academic-demo.netlify.app/event/</link>
+      <atom:link href="https://academic-demo.netlify.app/event/index.xml" rel="self" type="application/rss+xml" />
+    <description>Selected Recorded Talks</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 19 Mar 2021 14:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Selected Recorded Talks</title>
+      <link>https://academic-demo.netlify.app/event/</link>
+    </image>
+    
+    <item>
+      <title>Optimisation-centric generalisations of Bayesian inference</title>
+      <link>https://academic-demo.netlify.app/talk/optimisation-centric-generalisations-of-bayesian-inference/</link>
+      <pubDate>Fri, 19 Mar 2021 14:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/talk/optimisation-centric-generalisations-of-bayesian-inference/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimal Continual Learning has Perfect Memory and is NP-hard</title>
+      <link>https://academic-demo.netlify.app/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/</link>
+      <pubDate>Mon, 09 Nov 2020 14:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/talk/optimal-continual-learning-has-perfect-memory-and-is-np-hard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalised Variational Inference</title>
+      <link>https://academic-demo.netlify.app/talk/generalised-variational-inference/</link>
+      <pubDate>Tue, 29 Sep 2020 14:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/talk/generalised-variational-inference/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
