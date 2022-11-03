@@ -4,7 +4,29 @@
   
   
   <url>
-    <loc>https://academic-demo.netlify.app/</loc><lastmod>2022-01-31T00:00:00+00:00</lastmod></url>
+    <loc>https://academic-demo.netlify.app/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/publication-type/1/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/publication/gvi-duality/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/authors/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/author/charita-dellaporta/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/author/francois-xavier-briol/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/author/hisham-husain/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/author/jeremias-knoblauch/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/publication_types/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/publication/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/publication/npl-mmd/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
+  <url>
+    <loc>https://academic-demo.netlify.app/author/theo-damoulas/</loc><lastmod>2022-03-26T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/tag/bayesian-machine-learning/</loc><lastmod>2022-01-31T00:00:00+00:00</lastmod></url>
   <url>
@@ -22,11 +44,7 @@
   <url>
     <loc>https://academic-demo.netlify.app/publication-type/3/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://academic-demo.netlify.app/authors/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://academic-demo.netlify.app/author/jaakko-sahlsten/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://academic-demo.netlify.app/author/jeremias-knoblauch/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/author/joel-jaskari/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
@@ -35,10 +53,6 @@
     <loc>https://academic-demo.netlify.app/author/kustaa-hietala/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/author/leo-karkkainen/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://academic-demo.netlify.app/publication_types/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://academic-demo.netlify.app/publication/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/author/simo-sarkka/</loc><lastmod>2022-01-22T00:00:00+00:00</lastmod></url>
   <url>
@@ -54,8 +68,6 @@
   <url>
     <loc>https://academic-demo.netlify.app/author/chris-oates/</loc><lastmod>2021-04-15T00:00:00+00:00</lastmod></url>
   <url>
-    <loc>https://academic-demo.netlify.app/author/francois-xavier-briol/</loc><lastmod>2021-04-15T00:00:00+00:00</lastmod></url>
-  <url>
     <loc>https://academic-demo.netlify.app/publication/robust_intractable_likelihood/</loc><lastmod>2021-04-15T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/author/takuo-matsubara/</loc><lastmod>2021-04-15T00:00:00+00:00</lastmod></url>
@@ -63,8 +75,6 @@
     <loc>https://academic-demo.netlify.app/talk/optimisation-centric-generalisations-of-bayesian-inference/</loc><lastmod>2021-03-19T14:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/event/</loc><lastmod>2021-03-19T14:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://academic-demo.netlify.app/publication-type/1/</loc><lastmod>2021-03-18T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/author/juan-maronas/</loc><lastmod>2021-03-18T00:00:00+00:00</lastmod></url>
   <url>
@@ -101,8 +111,6 @@
     <loc>https://academic-demo.netlify.app/publication/tvd/</loc><lastmod>2020-10-26T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/talk/generalised-variational-inference/</loc><lastmod>2020-09-29T14:00:00+00:00</lastmod></url>
-  <url>
-    <loc>https://academic-demo.netlify.app/author/hisham-husain/</loc><lastmod>2020-06-09T00:00:00+00:00</lastmod></url>
   <url>
     <loc>https://academic-demo.netlify.app/publication/ocl/</loc><lastmod>2020-06-09T00:00:00+00:00</lastmod></url>
   <url>
