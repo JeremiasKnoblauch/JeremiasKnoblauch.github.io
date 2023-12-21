@@ -5,12 +5,60 @@
     <link>https://academic-demo.netlify.app/</link>
       <atom:link href="https://academic-demo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title></title>
       <link>https://academic-demo.netlify.app/</link>
     </image>
+    
+    <item>
+      <title>A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods</title>
+      <link>https://academic-demo.netlify.app/publication/wgf-gvi/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wgf-gvi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Conjugate Gaussian Process Regression</title>
+      <link>https://academic-demo.netlify.app/publication/rcgp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rcgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+      <link>https://academic-demo.netlify.app/publication/rccp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rccp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods</title>
+      <link>https://academic-demo.netlify.app/talk/a-rigorous-link-between-deep-ensembles-and-variational-bayesian-methods/</link>
+      <pubDate>Sat, 10 Jun 2023 14:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/talk/a-rigorous-link-between-deep-ensembles-and-variational-bayesian-methods/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Bayesian Inference for Discrete Intractable Likelihood</title>
+      <link>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustifying likelihoods by optimistically re-weighting data</title>
+      <link>https://academic-demo.netlify.app/publication/reweighted-likelihoods-tvd/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/reweighted-likelihoods-tvd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Interpretation of Bayesian Inference</title>
@@ -299,7 +347,7 @@ data.head()
 &lt;p&gt;Demo:&lt;/p&gt;
 
 
-&lt;div id=&#34;chart-456973812&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-841569732&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -309,7 +357,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-456973812&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-841569732&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();

@@ -5,12 +5,52 @@
     <link>https://academic-demo.netlify.app/author/jeremias-knoblauch/</link>
       <atom:link href="https://academic-demo.netlify.app/author/jeremias-knoblauch/index.xml" rel="self" type="application/rss+xml" />
     <description>Jeremias Knoblauch</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/author/jeremias-knoblauch/avatar_hu324837fa6b333247b69f74e9de2d8cc3_229664_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Jeremias Knoblauch</title>
       <link>https://academic-demo.netlify.app/author/jeremias-knoblauch/</link>
     </image>
+    
+    <item>
+      <title>A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods</title>
+      <link>https://academic-demo.netlify.app/publication/wgf-gvi/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wgf-gvi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Conjugate Gaussian Process Regression</title>
+      <link>https://academic-demo.netlify.app/publication/rcgp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rcgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+      <link>https://academic-demo.netlify.app/publication/rccp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rccp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Bayesian Inference for Discrete Intractable Likelihood</title>
+      <link>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robustifying likelihoods by optimistically re-weighting data</title>
+      <link>https://academic-demo.netlify.app/publication/reweighted-likelihoods-tvd/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/reweighted-likelihoods-tvd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Interpretation of Bayesian Inference</title>

@@ -5,12 +5,20 @@
     <link>https://academic-demo.netlify.app/author/chris-oates/</link>
       <atom:link href="https://academic-demo.netlify.app/author/chris-oates/index.xml" rel="self" type="application/rss+xml" />
     <description>Chris Oates</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Chris Oates</title>
       <link>https://academic-demo.netlify.app/author/chris-oates/</link>
     </image>
+    
+    <item>
+      <title>Generalized Bayesian Inference for Discrete Intractable Likelihood</title>
+      <link>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust generalised Bayesian inference for intractable likelihoods</title>

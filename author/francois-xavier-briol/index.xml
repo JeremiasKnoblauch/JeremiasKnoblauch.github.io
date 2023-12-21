@@ -5,12 +5,36 @@
     <link>https://academic-demo.netlify.app/author/francois-xavier-briol/</link>
       <atom:link href="https://academic-demo.netlify.app/author/francois-xavier-briol/index.xml" rel="self" type="application/rss+xml" />
     <description>Francois-Xavier Briol</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>Francois-Xavier Briol</title>
       <link>https://academic-demo.netlify.app/author/francois-xavier-briol/</link>
     </image>
+    
+    <item>
+      <title>Robust and Conjugate Gaussian Process Regression</title>
+      <link>https://academic-demo.netlify.app/publication/rcgp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rcgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+      <link>https://academic-demo.netlify.app/publication/rccp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rccp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generalized Bayesian Inference for Discrete Intractable Likelihood</title>
+      <link>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</link>
+      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/discrete-intractable-likelihood/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust Bayesian Inference for Simulator-based Models via the MMD Posterior Bootstrap</title>

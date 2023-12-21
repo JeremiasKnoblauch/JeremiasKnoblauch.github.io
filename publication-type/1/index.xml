@@ -5,12 +5,36 @@
     <link>https://academic-demo.netlify.app/publication-type/1/</link>
       <atom:link href="https://academic-demo.netlify.app/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://academic-demo.netlify.app/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://academic-demo.netlify.app/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods</title>
+      <link>https://academic-demo.netlify.app/publication/wgf-gvi/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/wgf-gvi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Conjugate Gaussian Process Regression</title>
+      <link>https://academic-demo.netlify.app/publication/rcgp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rcgp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robust and Scalable Bayesian Online Changepoint Detection</title>
+      <link>https://academic-demo.netlify.app/publication/rccp/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://academic-demo.netlify.app/publication/rccp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Adversarial Interpretation of Bayesian Inference</title>
